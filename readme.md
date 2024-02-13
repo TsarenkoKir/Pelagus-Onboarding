@@ -24,4 +24,4 @@ It specifically checks for the Pelagus Wallet's presence through a feature calle
 The process includes asking for the user's account details (quai_requestAccounts) and handling the response to show the wallet address or an error message.
 
 
-[![Connecting Pelagus Wallet - A Simple Web Integration Guide](https://ibb.co/jhhHfh8)](https://youtu.be/9rFBPJK19wQ "Connecting Pelagus Wallet - A Simple Web Integration Guide")
+[![Connecting Pelagus Wallet - A Simple Web Integration Guide](https://imgtr.ee/image/IXZx5e)](https://youtu.be/9rFBPJK19wQ "Connecting Pelagus Wallet - A Simple Web Integration Guide")
