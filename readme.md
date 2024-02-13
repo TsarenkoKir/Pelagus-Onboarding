@@ -23,6 +23,8 @@ The webpage uses JavaScript, a programming language that allows webpages to resp
 It specifically checks for the Pelagus Wallet's presence through a feature called window.ethereum.isPelagus.
 The process includes asking for the user's account details (quai_requestAccounts) and handling the response to show the wallet address or an error message.
 
+![Connecting Pelagus](https://github.com/TsarenkoKir/Pelagus-Onboarding/assets/26483223/fb54427d-d56f-4795-8c6c-a3baddf8c8ea)
+
 
 [![Connecting Pelagus Wallet - A Simple Web Integration Guide](https://imgtr.ee/image/IXZx5e)](https://youtu.be/9rFBPJK19wQ "Connecting Pelagus Wallet - A Simple Web Integration Guide")
 
