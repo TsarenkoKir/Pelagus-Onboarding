@@ -25,3 +25,4 @@ The process includes asking for the user's account details (quai_requestAccounts
 
 
 [![Connecting Pelagus Wallet - A Simple Web Integration Guide](https://imgtr.ee/image/IXZx5e)](https://youtu.be/9rFBPJK19wQ "Connecting Pelagus Wallet - A Simple Web Integration Guide")
+
