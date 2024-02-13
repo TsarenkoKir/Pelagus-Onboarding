@@ -26,8 +26,9 @@ The process includes asking for the user's account details (quai_requestAccounts
 [![Connecting Pelagus](https://github.com/TsarenkoKir/Pelagus-Onboarding/assets/26483223/fb54427d-d56f-4795-8c6c-a3baddf8c8ea)](https://youtu.be/9rFBPJK19wQ)
 
 To run http-server:
-`npm install --global http-server
-http-server `
+`npm install --global http-server`
+
+`http-server`
 
 **Here is a step-by-step video guide: https://youtu.be/9rFBPJK19wQ**
 
