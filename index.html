@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connect to Pelagus Wallet</title>
+</head>
+<body>
+
+<!-- This is a button that users can click to connect their Pelagus Wallet -->
+<button id="connect-wallet">Connect Pelagus Wallet</button>
+
+<!-- This is a placeholder where the wallet address will be displayed after connecting -->
+<div id="wallet-address">Wallet Address: Not Connected yet</div>
+
+    
+    <script>
+        // This script waits for the user to click the "Connect Wallet" button.
+        document.getElementById('connect-wallet').addEventListener('click', event => {
+            
+            // This checks if the Pelagus Wallet is available in the browser.
+            if (typeof window.ethereum.isPelagus !== 'undefined') {
+                
+                // This sends a request to the Pelagus Wallet to connect and get the user's account information.
+                window.ethereum.request({method: 'quai_requestAccounts'})
+                .then (accounts => {
+                    // If successful, this takes the first account from the list of accounts and stores it.
+                    const account = accounts[0];
+                    
+                    // This updates the text on the webpage to show the connected wallet address.
+                    document.getElementById('wallet-address').textContent = "Your wallet is: " + account;
+                })
+                .catch (error => {
+                    // If there's an error (like the user denying the connection), it gets logged in the console.
+                    console.error(error);
+                })
+            }
+            else {
+                // If Pelagus Wallet is not detected, this message will be logged in the console.
+                console.log('Install Pelagus');
+            }
+        })
+    </script>
+</body>
+</html>
